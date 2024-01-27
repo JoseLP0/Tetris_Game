@@ -1,0 +1,61 @@
+body {
+  background-color: rgba(0, 0, 0, 0.819);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 9rem;
+}
+
+.container2 {
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-left: 50px;
+}
+
+.button {
+  position: absolute;
+  padding-top: 15rem;
+}
+
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: beige;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.tetromino {
+  background-color: blue;
+}
+
+.mini-grid {
+  /* margin-left: 50px; */
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: beige;
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
+
+#start-button {
+  border-radius: 1.5rem;
+  padding: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  background-color: beige;
+}
